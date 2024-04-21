@@ -1,0 +1,31 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(wild-pig-game)
+
+set(CMAKE_C_COMPILER "C:\\Program Files\\mingw64\\bin\\gcc.exe")
+
+# 将src目录下的源文件添加到可执行文件中
+aux_source_directory(. SRC_SUB)
+aux_source_directory(gui SRC_SUB)
+aux_source_directory(app SRC_SUB)
+aux_source_directory(utils SRC_SUB)
+
+# 添加可执行文件
+add_executable(pig ${SRC_SUB})
+
+# 包含include目录
+include_directories(gui)
+include_directories(app)
+include_directories(utils)
+
+# 设置SDL库路径
+set(SDL2_PATH ${CMAKE_CURRENT_LIST_DIR}/SDL2)
+
+# 包含SDL头文件
+include_directories(${SDL2_PATH}/include)
+
+# 链接SDL库
+target_link_libraries(pig ${SDL2_PATH}/bin/SDL2.dll)
+
+
+

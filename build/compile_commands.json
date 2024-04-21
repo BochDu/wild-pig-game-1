@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe  @CMakeFiles/pig.dir/includes_C.rsp -g -o CMakeFiles\\pig.dir\\main.c.obj -c C:\\Users\\dbc19\\Desktop\\work\\wild-pig-game-1\\main.c",
+  "file": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/main.c",
+  "output": "CMakeFiles/pig.dir/main.c.obj"
+},
+{
+  "directory": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe  @CMakeFiles/pig.dir/includes_C.rsp -g -o CMakeFiles\\pig.dir\\gui\\gui.c.obj -c C:\\Users\\dbc19\\Desktop\\work\\wild-pig-game-1\\gui\\gui.c",
+  "file": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/gui/gui.c",
+  "output": "CMakeFiles/pig.dir/gui/gui.c.obj"
+},
+{
+  "directory": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe  @CMakeFiles/pig.dir/includes_C.rsp -g -o CMakeFiles\\pig.dir\\gui\\gui_sdl.c.obj -c C:\\Users\\dbc19\\Desktop\\work\\wild-pig-game-1\\gui\\gui_sdl.c",
+  "file": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/gui/gui_sdl.c",
+  "output": "CMakeFiles/pig.dir/gui/gui_sdl.c.obj"
+},
+{
+  "directory": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe  @CMakeFiles/pig.dir/includes_C.rsp -g -o CMakeFiles\\pig.dir\\app\\app.c.obj -c C:\\Users\\dbc19\\Desktop\\work\\wild-pig-game-1\\app\\app.c",
+  "file": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/app/app.c",
+  "output": "CMakeFiles/pig.dir/app/app.c.obj"
+},
+{
+  "directory": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe  @CMakeFiles/pig.dir/includes_C.rsp -g -o CMakeFiles\\pig.dir\\utils\\log.c.obj -c C:\\Users\\dbc19\\Desktop\\work\\wild-pig-game-1\\utils\\log.c",
+  "file": "C:/Users/dbc19/Desktop/work/wild-pig-game-1/utils/log.c",
+  "output": "CMakeFiles/pig.dir/utils/log.c.obj"
+}
+]
