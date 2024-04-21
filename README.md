@@ -13,7 +13,7 @@
 <br />
 3，build：cmake生成目录
 <br />
-4，prepare:库文源文件，MINGW安装包等
+4，prepare：库文源文件，MINGW安装包等
 <br />
 5，sdl2：SDL库
 <br />
@@ -21,7 +21,7 @@
 <br />
 7，resources：音视频资源目录
 <br />
-8，auto_run.bat：项目自动化编译运行脚本
+8，auto_run.bat：自动化编译运行脚本
 
 ### 开发环境：
 #### MinGW：
