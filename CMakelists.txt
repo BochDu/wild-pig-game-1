@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.5)
 
 project(wild-pig-game)
 
-set(CMAKE_C_COMPILER "C:\\Program Files\\mingw64\\bin\\gcc.exe")
+# 设置C编译器路径
+# set(CMAKE_C_COMPILER "C:\\mingw64\\bin\\gcc.exe")
 
 # 将src目录下的源文件添加到可执行文件中
 aux_source_directory(. SRC_SUB)

@@ -17,6 +17,9 @@ rem 检查构建是否成功
 if %errorlevel% neq 0 (
     echo create pig.exe fail
 ) else (
+    rem 复制SDL2.dll到build文件夹
+    copy "%PROJECT_PATH%\sdl2\bin\SDL2.dll" "%PROJECT_PATH%\build\" > nul
+
     rem 生成pig.exe
     .\pig.exe
 )

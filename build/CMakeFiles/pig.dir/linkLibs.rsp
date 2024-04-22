@@ -1,1 +1,0 @@
- "C:/Users/dbc19/Desktop/work/wild-pig-game-1/SDL2/bin/SDL2.dll" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

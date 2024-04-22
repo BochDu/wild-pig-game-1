@@ -1,3 +1,0 @@
-C:\cmake-3.29.2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\pig.dir/objects.a
-C:\PROGRA~1\mingw64\bin\ar.exe qc CMakeFiles\pig.dir/objects.a @CMakeFiles\pig.dir\objects1.rsp
-C:\PROGRA~1\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\pig.dir/objects.a -Wl,--no-whole-archive -o pig.exe -Wl,--out-implib,libpig.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pig.dir\linkLibs.rsp
