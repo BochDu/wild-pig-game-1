@@ -1,7 +1,7 @@
 #ifndef GUI_SDL_H
 #define GUI_SDL_H
 
-#include <SDL2/SDL.h>
+#include "SDL.h"
 #include <stdio.h>
 
 enum

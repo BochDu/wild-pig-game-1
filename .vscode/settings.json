@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "stdio.h": "c",
-        "app.h": "c",
-        "gui_sdl.h": "c",
-        "sdl.h": "c"
-    },
-    "C_Cpp.errorSquiggles": "disabled"
-}
