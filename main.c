@@ -1,5 +1,6 @@
 // lib
-#include <SDL2/SDL.h>
+//#include <SDL2/SDL.h>
+#include "SDL.h"
 #include <stdio.h>
 #include <assert.h>
 
@@ -7,7 +8,7 @@
 #include "app.h"
 #include "gui.h"
 
-int WinMain(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     app_init();
     gui_init();

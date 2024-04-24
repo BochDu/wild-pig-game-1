@@ -24,14 +24,39 @@
 8，auto_run.bat：自动化编译运行脚本
 
 ### 开发环境：
+#### Cmake:
+
 #### MinGW：
 下载MinGW安装管理器（MinGW Installation Manager）并安装MinGW。在安装过程中选择需要的组件，包括GCC编译器等。配置系统环境变量，将MinGW的bin目录添加到系统的PATH变量中。
 
 #### SDL：
-SDL（Simple DirectMedia Layer）是一个跨平台的多媒体库，提供了访问音频、键盘、鼠标和图形硬件的功能。你需要下载SDL并配置到你的开发环境中。项目已经移植，且在build目录下存放了SDL2.dll文件。
+SDL（Simple DirectMedia Layer）是一个跨平台的多媒体库，提供了访问音频、键盘、鼠标和图形硬件的功能。使用 git submodel 进行加载。
 
 #### Visual Studio Code：
 Visual Studio Code是一个轻量级的跨平台代码编辑器，支持多种编程语言。你可以使用Visual Studio Code来编写和管理你的C语言项目。
+
+### 编译运行：
+
+加载 git submodel：
+
+```bash
+git submodule update --init --recursive
+```
+
+使用 cmake 编译：
+
+```bash
+mkdir build
+cd build
+cmake ../
+make pig
+```
+
+运行：
+
+```bash
+./pig
+```
 
 ## **贡献人员**
 **BochDu**
