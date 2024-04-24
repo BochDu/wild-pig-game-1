@@ -19,7 +19,7 @@
 
 ### 开发环境：
 
-#### Cmake：
+#### CMake：
 CMake是一个跨平台的开源构建系统，用于管理软件构建过程。通过 CMakeLists.txt 文件生成构建。
 
 #### MinGW：
@@ -42,17 +42,17 @@ git submodule update --init --recursive
 #### Step2： 编译 运行
 
 ##### A： auto_run 脚本
-###### WIN
+###### WIN 环境
 ```bash
 .\auto_run.bat
 ```
-###### LINUX
+###### LINUX 环境
 ```bash
 chmod +x auto_run.sh
 ./auto_run.sh
 ```
 
-##### B： cmake
+##### B： CMake
 ```bash
 mkdir build
 cd build
